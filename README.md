@@ -253,60 +253,60 @@
 | 97. | onplaying | `<audio>` `<video>` | - |
 | 98. | onpopstate | `<body>` | - |
 | 99. | onproggress | `<audio>` `<video>` | - |
-| 90. | onratechange | `<audio>` `<video>` | - |
-| 100. | onreset | `<form>` | - |
-| 101. | onresize | `<body>` | - |
-| 102. | onscroll | All visible elements | - |
-| 103. | onsearch | `<input>` | - |
-| 104. | onseeked | `<audio>` `<video>` | - |
-| 105. | onseeking | `<audio>` `<video>` | - |
-| 106. | onselect | All visible elements | - |
-| 107. | onstalled | `<audio>` `<video>` | - |
-| 108. | onstorage | `<body>` | - |
-| 109. | onsubmit | `<form>` | - |
-| 110. | onsuspend | `<audio>` `<video>` | - |
-| 111. | ontimupdate | `<audio>` `<video>` | - |
-| 112. | ontoggle | `<details>` | - |
-| 113. | onunload | `<body>` | - |
-| 114. | onvolumechange | `<audio>` `<video>` | - |
-| 115. | onwaiting | `<audio>` `<video>` | - |
-| 116. | onwheel | All visible elements | - |
-| 117. | open | `<details>` | - |
-| 118. | optimum | `<meter>` | - |
-| 119. | pattern | `<input>` | - |
-| 120. | placeholder | `<input>` `<textarea>` | - |
-| 121. | poster | `<video>` | - |
-| 122. | preload | 	`<audio>` `<video>` | - |
-| 123. | readonly | `<input>` `<textarea>` | - |
-| 124. | rel | `<a>` `<area>` `<form>` `<link>` | - |
-| 125. | required | 	`<input>` `<select>` `<textarea>` | - |
-| 126. | reversed | `<ol>` | - |
-| 127. | rows | `<textarea>` | - |
-| 128. | rowspan | `<td>` `<th>` | - |
-| 129. | sandbox | `<iframe>` | - |
-| 130. | scope | `<th>` | - |
-| 131. | selected | `<option>` | - |
-| 132. | shape | `<area>` | - |
-| 133. | size | `<input>` `<select>` | - |
-| 134. | sizes | `<img>` `<link>` `<source>` | - |
-| 135. | span | `<col>` `<colgroup>` | - |
-| 136. | spellcheck | * | - |
-| 137. | src | `<audio>` `<embed>` `<iframe>` `<img>` `<input>` `<script>` `<source>` `<track>` `<video>` | - |
-| 138. | srcdoc | `<iframe>` | - |
-| 139. | srclang | `<track>` | - |
-| 140. | srcset | `<img>` `<source>` | - |
-| 140. | start | `<ol>` | - |
-| 141. | step | `<input>` | - |
-| 142. | style | * | - |
-| 143. | tabindex | * | - |
-| 144. | target | `<a>` `<area>` `<base>` `<form>` | - |
-| 145. | title | * | - |
-| 145. | translate | * | - |
-| 145. | type | `<a>` `<button>` `<embed>` `<input>` `<link>` `<menu>` `<object>` `<script>` `<source>` `<style>` | - |
-| 145. | usemap | `<img>` `<object>` | - |
-| 146. | value | `<button>` `<input>` `<li>` `<option>` `<meter>` `<progress>` `<param>` | - |
-| 147. | width | `<canvas>` `<embed>` `<iframe>` `<img>` `<input>` `<object>` `<video>` | - |
-| 148. | wrap | `<textarea>` | - |
+| 100. | onratechange | `<audio>` `<video>` | - |
+| 101. | onreset | `<form>` | - |
+| 102. | onresize | `<body>` | - |
+| 103. | onscroll | All visible elements | - |
+| 104. | onsearch | `<input>` | - |
+| 105. | onseeked | `<audio>` `<video>` | - |
+| 106. | onseeking | `<audio>` `<video>` | - |
+| 107. | onselect | All visible elements | - |
+| 108. | onstalled | `<audio>` `<video>` | - |
+| 109. | onstorage | `<body>` | - |
+| 110. | onsubmit | `<form>` | - |
+| 111. | onsuspend | `<audio>` `<video>` | - |
+| 112. | ontimupdate | `<audio>` `<video>` | - |
+| 113. | ontoggle | `<details>` | - |
+| 114. | onunload | `<body>` | - |
+| 115. | onvolumechange | `<audio>` `<video>` | - |
+| 116. | onwaiting | `<audio>` `<video>` | - |
+| 117. | onwheel | All visible elements | - |
+| 118. | open | `<details>` | - |
+| 119. | optimum | `<meter>` | - |
+| 120. | pattern | `<input>` | - |
+| 121. | placeholder | `<input>` `<textarea>` | - |
+| 122. | poster | `<video>` | - |
+| 123. | preload | 	`<audio>` `<video>` | - |
+| 124. | readonly | `<input>` `<textarea>` | - |
+| 125. | rel | `<a>` `<area>` `<form>` `<link>` | - |
+| 126. | required | 	`<input>` `<select>` `<textarea>` | - |
+| 127. | reversed | `<ol>` | - |
+| 128. | rows | `<textarea>` | - |
+| 129. | rowspan | `<td>` `<th>` | - |
+| 130. | sandbox | `<iframe>` | - |
+| 131. | scope | `<th>` | - |
+| 132. | selected | `<option>` | - |
+| 133. | shape | `<area>` | - |
+| 134. | size | `<input>` `<select>` | - |
+| 135. | sizes | `<img>` `<link>` `<source>` | - |
+| 136. | span | `<col>` `<colgroup>` | - |
+| 137. | spellcheck | * | - |
+| 138. | src | `<audio>` `<embed>` `<iframe>` `<img>` `<input>` `<script>` `<source>` `<track>` `<video>` | - |
+| 139. | srcdoc | `<iframe>` | - |
+| 140. | srclang | `<track>` | - |
+| 141. | srcset | `<img>` `<source>` | - |
+| 142. | start | `<ol>` | - |
+| 143. | step | `<input>` | - |
+| 144. | style | * | - |
+| 145. | tabindex | * | - |
+| 146. | target | `<a>` `<area>` `<base>` `<form>` | - |
+| 147. | title | * | - |
+| 148. | translate | * | - |
+| 149. | type | `<a>` `<button>` `<embed>` `<input>` `<link>` `<menu>` `<object>` `<script>` `<source>` `<style>` | - |
+| 150. | usemap | `<img>` `<object>` | - |
+| 151. | value | `<button>` `<input>` `<li>` `<option>` `<meter>` `<progress>` `<param>` | - |
+| 152. | width | `<canvas>` `<embed>` `<iframe>` `<img>` `<input>` `<object>` `<video>` | - |
+| 153. | wrap | `<textarea>` | - |
 
 
 

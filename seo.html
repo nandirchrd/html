@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- SEO -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Tulis deskripsi singkat mengenai halaman Anda di sini."
+		/>
+		<meta
+			name="keywords"
+			content="kata kunci, kata kunci terkait, kata kunci terkait lainnya"
+		/>
+		<meta name="author" content="Nama Anda" />
+
+		<!-- Twitter Card -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:site" content="@username" />
+		<meta property="twitter:title" content="Judul Halaman" />
+		<meta
+			property="twitter:description"
+			content="Tulis deskripsi singkat mengenai halaman Anda di sini."
+		/>
+		<meta
+			property="twitter:image"
+			content="https://www.contohwebsite.com/gambar.jpg"
+		/>
+		<meta property="twitter:image:alt" content="Judul Halaman" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Judul Halaman" />
+		<meta
+			property="og:description"
+			content="Tulis deskripsi singkat mengenai halaman Anda di sini."
+		/>
+		<meta
+			property="og:image"
+			content="https://www.contohwebsite.com/gambar.jpg"
+		/>
+		<meta property="og:image:alt" content="Judul Halaman" />
+		<meta
+			property="og:url"
+			content="https://www.contohwebsite.com/halaman-utama"
+		/>
+		<meta property="og:site_name" content="Nama Situs" />
+
+		<!-- Animation -->
+		<style>
+			@keyframes feature {
+				0% {
+					border-radius: 10%;
+				}
+				5% {
+					border-radius: 12%;
+				}
+				10% {
+					border-radius: 14%;
+				}
+				15% {
+					border-radius: 16%;
+				}
+				20% {
+					border-radius: 18%;
+				}
+				25% {
+					border-radius: 20%;
+				}
+				30% {
+					border-radius: 22%;
+				}
+				35% {
+					border-radius: 24%;
+				}
+				40% {
+					border-radius: 26%;
+				}
+				45% {
+					border-radius: 28%;
+				}
+				50% {
+					border-radius: 30%;
+				}
+				55% {
+					border-radius: 32%;
+				}
+				60% {
+					border-radius: 34%;
+				}
+				65% {
+					border-radius: 36%;
+				}
+				70% {
+					border-radius: 38%;
+				}
+				75% {
+					border-radius: 40%;
+				}
+				80% {
+					border-radius: 42%;
+				}
+				85% {
+					border-radius: 44%;
+				}
+				90% {
+					border-radius: 46%;
+				}
+				95% {
+					border-radius: 48%;
+				}
+				100% {
+					border-radius: 50%;
+				}
+			}
+		</style>
+		<!-- STYLE -->
+		<style>
+			/* CSS RESET */
+			/*  http://meyerweb.com/eric/tools/css/reset/ 
+                v2.0 | 20110126
+                License: none (public domain)
+            */
+
+			html,
+			body,
+			div,
+			span,
+			applet,
+			object,
+			iframe,
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6,
+			p,
+			blockquote,
+			pre,
+			a,
+			abbr,
+			acronym,
+			address,
+			big,
+			cite,
+			code,
+			del,
+			dfn,
+			em,
+			img,
+			ins,
+			kbd,
+			q,
+			s,
+			samp,
+			small,
+			strike,
+			strong,
+			sub,
+			sup,
+			tt,
+			var,
+			b,
+			u,
+			i,
+			center,
+			dl,
+			dt,
+			dd,
+			ol,
+			ul,
+			li,
+			fieldset,
+			form,
+			label,
+			legend,
+			table,
+			caption,
+			tbody,
+			tfoot,
+			thead,
+			tr,
+			th,
+			td,
+			article,
+			aside,
+			canvas,
+			details,
+			embed,
+			figure,
+			figcaption,
+			footer,
+			header,
+			hgroup,
+			menu,
+			nav,
+			output,
+			ruby,
+			section,
+			summary,
+			time,
+			mark,
+			audio,
+			video {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				font-size: 100%;
+				font: inherit;
+				vertical-align: baseline;
+			}
+			/* HTML5 display-role reset for older browsers */
+			article,
+			aside,
+			details,
+			figcaption,
+			figure,
+			footer,
+			header,
+			hgroup,
+			menu,
+			nav,
+			section {
+				display: block;
+			}
+			body {
+				line-height: 1;
+			}
+			ol,
+			ul {
+				list-style: none;
+			}
+			blockquote,
+			q {
+				quotes: none;
+			}
+			blockquote:before,
+			blockquote:after,
+			q:before,
+			q:after {
+				content: '';
+				content: none;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			/* ======================================================== */
+			/* Variable */
+			:root {
+				--primary: coral;
+				--white: white;
+				--black: black;
+				--font-size: 16px;
+			}
+			/* Customization */
+			html {
+				overflow-x: hidden;
+				font-size: var(--font-size);
+				font-family: 'Lucida Sans', 'Lucida Sans Regular',
+					'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+					sans-serif;
+				width: 100vw;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			section {
+				width: 100%;
+				padding: 2em;
+			}
+			a {
+				color: var(--primary);
+				text-decoration: none;
+			}
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+					sans-serif !important;
+			}
+			h1 {
+				font-size: 4.8rem;
+			}
+			h2 {
+				font-size: 4.2rem;
+			}
+			h3 {
+				font-size: 3.4rem;
+			}
+			h4 {
+				font-size: 2.6rem;
+			}
+			h5 {
+				font-size: 1.8rem;
+			}
+			h6 {
+				font-size: 1rem;
+			}
+			.container {
+				margin: 0 auto;
+				width: 100%;
+				max-width: 1080px;
+			}
+
+			/* Styling */
+			header {
+				position: fixed;
+				width: 100%;
+				background-color: var(--primary);
+				color: white;
+				z-index: 9999;
+			}
+			header .container {
+				transform: translateX(0.5em);
+			}
+			header nav {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			header nav ul {
+				display: flex;
+				gap: 1em;
+			}
+			nav ul li a {
+				color: white;
+			}
+			nav ul li :hover {
+				color: var(--black);
+			}
+
+			section.hero {
+				display: flex;
+				color: white;
+				width: 100vw;
+				height: 100vh;
+				background-image: url('https://i.pinimg.com/originals/9f/9f/0b/9f9f0ba31d05021bf439aec99ca2e141.jpg');
+				background-size: cover;
+			}
+			.hero-container {
+				display: flex;
+				align-items: center;
+				gap: 10em;
+			}
+			.hero-container h1 {
+				white-space: nowrap;
+			}
+			.article-container {
+				display: flex;
+				align-items: start;
+				gap: 2em;
+			}
+			.article-container h2 {
+				position: sticky;
+				top: 67px;
+			}
+			.articles {
+				display: flex;
+				flex-direction: column;
+				gap: 2em;
+			}
+			.article {
+				display: flex;
+				gap: 1em;
+			}
+			.article .thumbnail {
+				width: 200px;
+				aspect-ratio: 1 / 1;
+				border-radius: 0.2em;
+			}
+			.article .description {
+				display: flex;
+				flex-direction: column;
+				gap: 0.2em;
+			}
+
+			.features {
+				display: flex;
+				gap: 1em;
+			}
+			.feature {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-grow: 1;
+				aspect-ratio: 1 / 1;
+				animation: feature 2s infinite alternate-reverse;
+				color: white;
+			}
+
+			[data-feature='1'] {
+				background-color: crimson;
+			}
+			[data-feature='2'] {
+				background-color: brown;
+			}
+			[data-feature='3'] {
+				background-color: darkred;
+			}
+
+			section.contact {
+			}
+			.contact-container form {
+				display: flex;
+				flex-direction: column;
+			}
+			.contact-container button {
+				margin-top: 0.5em;
+				padding: 0.2em;
+				background-color: var(--primary);
+				border: none;
+				color: var(--white);
+			}
+			label {
+				padding: 0.5em 0;
+			}
+			input,
+			textarea,
+			button {
+				border: 1px solid gray;
+				border-radius: 0.2em;
+				resize: none;
+			}
+			input:focus,
+			textarea:focus {
+				outline: none;
+			}
+			button {
+				cursor: pointer;
+			}
+
+			footer {
+				background-color: var(--primary);
+				color: var(--white);
+			}
+			.footer-container {
+				display: flex;
+				min-height: 6rem;
+				justify-content: center;
+				align-items: center;
+			}
+			p {
+				display: block;
+			}
+		</style>
+
+		<!-- Title -->
+		<title>Judul Halaman</title>
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<!-- Canonical Tag -->
+		<link rel="canonical" href="https://www.contohwebsite.com" />
+
+		<!-- Schema Markup -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "Nama Organisasi",
+				"url": "https://www.contohwebsite.com",
+				"logo": "https://www.contohwebsite.com/logo.png"
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<div>
+						<h2>Brand</h2>
+					</div>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Articles</a></li>
+						<li><a href="#">Feature</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="container hero-container">
+					<h1>Dinosaurus</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Quis minima ad recusandae, dolor, rerum fugiat, deleniti
+						facilis explicabo harum veniam doloribus repellat cum
+						tenetur rem voluptates id praesentium? Reiciendis, odio?
+					</p>
+				</div>
+			</section>
+			<section class="articles">
+				<div class="container article-container">
+					<h2>Articles</h2>
+					<div class="articles">
+						<article class="article">
+							<img
+								class="thumbnail"
+								src="https://img.freepik.com/free-vector/tyrannosaurus-rex-dinosaur-holding-meat-bone-cartoon-style_1308-89160.jpg?w=2000"
+								alt="dinosaurus"
+							/>
+							<div class="description">
+								<h3>How to cook dinosaurus</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Vitae itaque, temporibus
+									excepturi quisquam consectetur hic voluptate
+									dolorum soluta exercitationem. Assumenda
+									neque quia ducimus aspernatur error itaque
+									ad impedit deserunt animi?
+								</p>
+							</div>
+						</article>
+						<article class="article">
+							<img
+								class="thumbnail"
+								src="https://qph.cf2.quoracdn.net/main-qimg-5089b6ba39a94a804ac25be82fce7fb3-lq"
+								alt="dragon"
+							/>
+							<div class="description">
+								<h3>How to cook dragon</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Vitae itaque, temporibus
+									excepturi quisquam consectetur hic voluptate
+									dolorum soluta exercitationem. Assumenda
+									neque quia ducimus aspernatur error itaque
+									ad impedit deserunt animi?
+								</p>
+							</div>
+						</article>
+						<article class="article">
+							<img
+								class="thumbnail"
+								src="https://media-cdn.tripadvisor.com/media/photo-s/1b/0f/96/a3/the-red-lion-meat-sharer.jpg"
+								alt="lion"
+							/>
+							<div class="description">
+								<h3>How to cook lion</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Vitae itaque, temporibus
+									excepturi quisquam consectetur hic voluptate
+									dolorum soluta exercitationem. Assumenda
+									neque quia ducimus aspernatur error itaque
+									ad impedit deserunt animi?
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="features">
+				<div class="container feature-container">
+					<div class="features">
+						<div class="feature" data-feature="1">Feature 1</div>
+						<div class="feature" data-feature="2">Feature 2</div>
+						<div class="feature" data-feature="3">Feature 3</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="container contact-container">
+					<h2>Contact Form</h2>
+					<form>
+						<label for="nama">Nama</label>
+						<input type="text" name="nama" />
+						<label for="email">Email</label>
+						<input type="email" name="email" />
+						<label for="message">Message</label>
+						<textarea name="message" cols="30" rows="10"></textarea>
+						<button>Send Message</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container footer-container">
+				<p>copyright</p>
+			</div>
+		</footer>
+	</body>
+</html>

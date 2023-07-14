@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			table,
+			tr,
+			th,
+			td {
+				border-collapse: collapse;
+				border: 1px solid black;
+			}
+		</style>
+		<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+	</head>
+	<body>
+		<main>
+				<article>
+					<p>
+						The
+						<abbr title="World Health Organization">WHO</abbr> was
+						founded in 1948.
+					</p>
+					<p>
+						<dfn
+							><abbr title="Cascading Style Sheets">CSS</abbr>
+						</dfn>
+						is a language that describes the style of an HTML
+						document.
+					</p>
+				</article>
+				<address>
+					Written by
+					<a href="mailto:webmaster@example.com">Jon Doe</a>.<br />
+					Visit us at:<br />
+					Example.com<br />
+					Box 564, Disneyland<br />
+					USA
+				</address>
+
+				<!-- area -->
+				<img
+					src="https://www.w3schools.com/tags/workplace.jpg"
+					alt="Workplace"
+					usemap="#workmap"
+					width="400"
+					height="379"
+				/>
+
+				<map name="workmap">
+					<area
+						shape="rect"
+						coords="34,44,270,350"
+						alt="Computer"
+						href="computer.htm"
+					/>
+					<area
+						shape="rect"
+						coords="290,172,333,250"
+						alt="Phone"
+						href="phone.htm"
+					/>
+					<area
+						shape="circle"
+						coords="337,300,44"
+						alt="Cup of coffee"
+						href="coffee.htm"
+					/>
+				</map>
+
+				<blockquote cite="http://www.worldwildlife.org/who/index.html">
+					For 50 years, WWF has been protecting the future of nature.
+					The world's leading conservation organization, WWF works in
+					100 countries and is supported by 1.2 million members in the
+					United States and close to 5 million globally.
+				</blockquote>
+
+				<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+				<hr />
+				<table width="100%">
+					<caption>
+						Monthly savings
+					</caption>
+					<tr>
+						<th>Month</th>
+						<th>Savings</th>
+					</tr>
+					<tr>
+						<td>January</td>
+						<td>$100</td>
+					</tr>
+				</table>
+
+				<hr />
+				<pre>
+                    <code>
+                        var a = 2;
+                        var b = 2; 
+                    </code>
+                </pre>
+
+				<hr />
+				<label>
+					Jasa Pengiriman / Kurir:
+					<input list="kurir" />
+					<datalist id="kurir">
+						<option value="POS Indonesia"></option>
+						<option value="JNE"></option>
+						<option value="TIKI"></option>
+					</datalist>
+				</label>
+
+				<hr />
+				<dl>
+					<dt>Vertebrata</dt>
+					<dd>
+						Binatang yang bertulang belakang (Seperti binatang
+						menyusui dan burung)
+					</dd>
+					<dt>Invertebrata</dt>
+					<dd>
+						Binatang yang tidak bertulang belakang (Seperti cacing
+						dan lalat)
+					</dd>
+				</dl>
+
+				<hr />
+				<details>
+					<summary>Judul Informasi (Klik Aku)</summary>
+					<p>
+						Keterangan dari informasi secara lengkap dapat ditulis
+						disini.
+					</p>
+				</details>
+
+				<hr />
+				<kbd>CTRL</kbd> + <kbd>D</kbd>
+				<mark>This is the mark</mark>
+				<meter min="0" value="2" max="10"></meter>
+				<hr />
+				<label for="cars">Choose a car:</label>
+				<select name="cars" id="cars">
+					<optgroup label="Swedish Cars">
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+					</optgroup>
+					<optgroup label="German Cars">
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</optgroup>
+				</select>
+
+				<hr />
+
+				<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+					<input type="range" id="a" value="50" />
+					+<input type="number" id="b" value="25" /> =<output
+						name="x"
+						for="a b"
+					></output>
+				</form>
+
+				<hr />
+
+				<ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+
+				<label for="file">Downloading progress:</label>
+				<progress id="file" value="90" max="100"></progress>
+
+				<p>Message from my computer:</p>
+				<p>
+					<samp>File not found.<br />Press F1 to continue</samp>
+				</p>
+
+				<hr />
+				<time>10:00</time>
+				<p>
+					The area of a triangle is: 1/2 x <var>b</var> x
+					<var>h</var>, where <var>b</var> is the base, and
+					<var>h</var> is the vertical height.
+				</p>
+				<p>Saya kemarin blblablab ingin mem<wbr>pertanggung</wbr>jawabkan</p>
+			</section>
+		</main>
+	</body>
+</html>
